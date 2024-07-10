@@ -4,8 +4,138 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <style>
+        .main{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 10px;
+        }
+         .flex1{
+            border: solid black;
+            display: flex;
+            height: 90px;
+            width: 250PX;
+            gap: 80px ;
+        }
+        .flex2{
+            border: solid black;
+            display: flex;
+            height: 90px;
+            width: 130PX;
+            gap: 80px ;
+        }
+        .flex3{
+            border: solid black;
+            display: flex;
+            height: 90px;
+            width: 130PX;
+            gap: 80px ;
+        }
+        .flex4{
+            border: solid black;
+            display: flex;
+            height: 90px;
+            width: 130PX;
+            gap: 80px ;
+        }
+        .flex5{
+            border: solid black;
+            display: flex;
+            height: 90px;
+            width: 130PX;
+            gap: 80px ;
+        }
+        .flex6{
+            border: solid black;
+            display: flex;
+            height: 90px;
+            width: 130PX;
+            gap: 80px ;
+        }
+        .box1{
+            border: solid black;
+            display: flex;
+            height: 40px;
+            width: 40PX;
+            position: absolute;
+            left: 15px;
+            top: 15px;
+        
+        }
+        .stripe{
+            margin-left: 55px;
+            margin-top: 2px;
+            font-size: small;
+        }
+        .pay{
+            margin-left: -115px;
+            margin-top: 17px;
+            font-size: 9px;
+            font-weight:2;
+        }
+        .info{
+            font-size: 9px;
+            margin-top: 50px;
+            margin-left: 3px;
+            position: absolute;
+            flex-wrap: wrap;
+            display: 
+
+            
+        }
+        .info1{
+            font-size: 8px;
+            margin-top: 73px;
+            margin-left: -190px;
+        }
+        .view{
+            font-size: 10px;
+            margin-top:75px ;
+            margin-left: -50px; 
+        }
+        .star{
+            display: flex;
+            align-items: center;
+            margin-left: -153px;
+            margin-top: -20px;
+            width: 40px;
+            
+        }
+        .s{
+            width: 43px;
+            height: 40px;
+            margin-left: -115px;
+            margin-top: -15px;
+        }
+
+    </style>
 </head>
 <body>
+    <div class="main">
+    <div class="flex1">
+        <div class="box1"></div><h3 class="stripe">Stripe</h3>
+        <p class="pay">Payment Services</p>
+        <p class="info">Get more context on your users with stripe data inside our platform.</p>
+        <p class="info1">Installed 172 items</p>
+        <P class="view"><a href="">View ></a></P>
+       <div class="star"><ion-icon name="star-outline"></ion-icon>
+        <ion-icon name="star-outline"></ion-icon>
+        <ion-icon name="star-outline"></ion-icon>
+        <ion-icon name="star-outline"></ion-icon>
+        <img class="s" src="data:image/png;base64,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" alt="">
+        </div>
+    </div>
+    <!-- <div class="flex2"></div>
+    <div class="flex3"></div>
+    <div class="flex4"></div>
+    <div class="flex5"></div>
+    <div class="flex6"></div> -->
+</div>
     
+
+   
 </body>
 </html>
